@@ -1,0 +1,141 @@
+*{
+    font-family: "Quicksand", sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: antiquewhite;
+    height: 100vh;
+    margin: 0;
+}
+
+
+
+
+.header {
+    display: flex;
+    border-radius: 20px;
+    border: solid px;
+    width: 300px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(255, 248, 248);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.subtitle, .title {
+    
+    margin: 5px;
+}
+
+.container {
+    background-color: rgb(192, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 600px;
+    width: 500px;
+    margin-top: 10px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -5px, rgba(0, 0, 0, 0.2) 0px -10px 0px inset;
+}
+
+
+
+
+
+
+
+.content {
+    background-color: white;
+    height: 450px;
+    width: 450px;
+    border: solid 2px;
+    margin: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.grid-item {
+    box-sizing: border-box;
+    border: 1px solid #00000013;
+    transition: background-color .2s linear;
+}
+
+
+
+
+
+
+
+
+
+
+
+.bottom {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    width: 500px
+}
+
+.size{
+    display: flex;
+    height: 50px;
+    width: 200px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.more, .less {
+    background-color: white;
+    padding: 5px 15px 5px 15px;
+    border-radius: 10px;
+    font-size: 30px;
+    border: solid 1px;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+
+.more:hover {
+    background-color: rgb(109, 255, 109);
+    box-shadow: rgb(60, 136, 60) 3px 3px 6px 0px inset,rgb(60, 136, 60)  -3px -3px 6px 1px inset;
+}
+
+.less:hover {
+    background-color: rgb(255, 109, 109);
+    box-shadow: rgb(136, 60, 60) 3px 3px 6px 0px inset,rgb(136, 60, 60)  -3px -3px 6px 1px inset;
+}
+
+.current-size {
+    background-color: white;
+    text-align: center;
+    padding: 5px 15px 5px 15px;
+    border-radius: 10px;
+    font-size: 18px;
+    border: solid 1px;
+    width: 90px;
+    margin: 5px;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+
+.knob {
+    height: 70px;
+    width: 70px;
+    background-color: white;
+    border-radius: 100px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -15px, rgba(0, 0, 0, 0.2) 0px -10px 0px inset;
+}
+
+
+
+
